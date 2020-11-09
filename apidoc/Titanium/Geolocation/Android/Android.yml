@@ -120,7 +120,7 @@ description: |
 
     ``` js
     var gpsRule = Ti.Geolocation.Android.createLocationRule({
-        provider: Ti.Geolocation.PROVIDER_GPS,
+        provider: Ti.Geolocation.Android.PROVIDER_GPS,
         // Updates should be accurate to 100m
         accuracy: 100,
         // Updates should be no older than 5m
